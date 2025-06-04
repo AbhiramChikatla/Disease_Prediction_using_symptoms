@@ -3,6 +3,12 @@ channels:
   - anaconda
   - defaults
 dependencies:
+  - python=3.13
+  - streamlit
+  - pandas
+  - numpy
+  - scikit-learn
+  - joblib   
   - _anaconda_depends=2020.02=py38_0
   - alabaster=0.7.12=py_0
   - anaconda=custom=py38_1
